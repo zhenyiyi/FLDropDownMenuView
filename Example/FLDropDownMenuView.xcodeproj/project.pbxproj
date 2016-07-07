@@ -16,7 +16,6 @@
 		518743671D2E0570003BF0FD /* FLDropDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 518743661D2E0570003BF0FD /* FLDropDownMenuView.m */; };
 		5187436D1D2E2B65003BF0FD /* arrow_down_icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5187436C1D2E2B65003BF0FD /* arrow_down_icon.bundle */; };
 		5187436F1D2E348B003BF0FD /* arrow_down.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5187436E1D2E348B003BF0FD /* arrow_down.bundle */; };
-		51B90C741D2E642B00704F20 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B90C731D2E642B00704F20 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +33,6 @@
 		518743661D2E0570003BF0FD /* FLDropDownMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDropDownMenuView.m; sourceTree = "<group>"; };
 		5187436C1D2E2B65003BF0FD /* arrow_down_icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = arrow_down_icon.bundle; sourceTree = "<group>"; };
 		5187436E1D2E348B003BF0FD /* arrow_down.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = arrow_down.bundle; sourceTree = "<group>"; };
-		51B90C721D2E642B00704F20 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		51B90C731D2E642B00704F20 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +73,6 @@
 				518743661D2E0570003BF0FD /* FLDropDownMenuView.m */,
 				518743541D2E0548003BF0FD /* ViewController.h */,
 				518743551D2E0548003BF0FD /* ViewController.m */,
-				51B90C721D2E642B00704F20 /* Test.h */,
-				51B90C731D2E642B00704F20 /* Test.m */,
 				518743571D2E0548003BF0FD /* Main.storyboard */,
 				5187435A1D2E0548003BF0FD /* Assets.xcassets */,
 				5187435C1D2E0548003BF0FD /* LaunchScreen.storyboard */,
@@ -167,7 +162,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B90C741D2E642B00704F20 /* Test.m in Sources */,
 				518743561D2E0548003BF0FD /* ViewController.m in Sources */,
 				518743531D2E0548003BF0FD /* AppDelegate.m in Sources */,
 				518743671D2E0570003BF0FD /* FLDropDownMenuView.m in Sources */,
