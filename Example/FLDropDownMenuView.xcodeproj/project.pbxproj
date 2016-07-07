@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		518743501D2E0548003BF0FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5187434F1D2E0548003BF0FD /* main.m */; };
+		518743531D2E0548003BF0FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 518743521D2E0548003BF0FD /* AppDelegate.m */; };
+		518743561D2E0548003BF0FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518743551D2E0548003BF0FD /* ViewController.m */; };
+		518743591D2E0548003BF0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518743571D2E0548003BF0FD /* Main.storyboard */; };
+		5187435B1D2E0548003BF0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5187435A1D2E0548003BF0FD /* Assets.xcassets */; };
+		5187435E1D2E0548003BF0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5187435C1D2E0548003BF0FD /* LaunchScreen.storyboard */; };
+		518743671D2E0570003BF0FD /* FLDropDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 518743661D2E0570003BF0FD /* FLDropDownMenuView.m */; };
+		5187436D1D2E2B65003BF0FD /* arrow_down_icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5187436C1D2E2B65003BF0FD /* arrow_down_icon.bundle */; };
+		5187436F1D2E348B003BF0FD /* arrow_down.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5187436E1D2E348B003BF0FD /* arrow_down.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5187434B1D2E0548003BF0FD /* FLDropDownMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLDropDownMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5187434F1D2E0548003BF0FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		518743511D2E0548003BF0FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		518743521D2E0548003BF0FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		518743541D2E0548003BF0FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		518743551D2E0548003BF0FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		518743581D2E0548003BF0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5187435A1D2E0548003BF0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5187435D1D2E0548003BF0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5187435F1D2E0548003BF0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518743651D2E0570003BF0FD /* FLDropDownMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDropDownMenuView.h; sourceTree = "<group>"; };
+		518743661D2E0570003BF0FD /* FLDropDownMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDropDownMenuView.m; sourceTree = "<group>"; };
+		5187436C1D2E2B65003BF0FD /* arrow_down_icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = arrow_down_icon.bundle; sourceTree = "<group>"; };
+		5187436E1D2E348B003BF0FD /* arrow_down.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = arrow_down.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518743481D2E0548003BF0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		518743421D2E0547003BF0FD = {
+			isa = PBXGroup;
+			children = (
+				5187434D1D2E0548003BF0FD /* FLDropDownMenuView */,
+				5187434C1D2E0548003BF0FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5187434C1D2E0548003BF0FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5187434B1D2E0548003BF0FD /* FLDropDownMenuView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5187434D1D2E0548003BF0FD /* FLDropDownMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				5187436E1D2E348B003BF0FD /* arrow_down.bundle */,
+				5187436C1D2E2B65003BF0FD /* arrow_down_icon.bundle */,
+				518743511D2E0548003BF0FD /* AppDelegate.h */,
+				518743521D2E0548003BF0FD /* AppDelegate.m */,
+				518743651D2E0570003BF0FD /* FLDropDownMenuView.h */,
+				518743661D2E0570003BF0FD /* FLDropDownMenuView.m */,
+				518743541D2E0548003BF0FD /* ViewController.h */,
+				518743551D2E0548003BF0FD /* ViewController.m */,
+				518743571D2E0548003BF0FD /* Main.storyboard */,
+				5187435A1D2E0548003BF0FD /* Assets.xcassets */,
+				5187435C1D2E0548003BF0FD /* LaunchScreen.storyboard */,
+				5187435F1D2E0548003BF0FD /* Info.plist */,
+				5187434E1D2E0548003BF0FD /* Supporting Files */,
+			);
+			path = FLDropDownMenuView;
+			sourceTree = "<group>";
+		};
+		5187434E1D2E0548003BF0FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5187434F1D2E0548003BF0FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5187434A1D2E0548003BF0FD /* FLDropDownMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518743621D2E0548003BF0FD /* Build configuration list for PBXNativeTarget "FLDropDownMenuView" */;
+			buildPhases = (
+				518743471D2E0548003BF0FD /* Sources */,
+				518743481D2E0548003BF0FD /* Frameworks */,
+				518743491D2E0548003BF0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLDropDownMenuView;
+			productName = FLDropDownMenuView;
+			productReference = 5187434B1D2E0548003BF0FD /* FLDropDownMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518743431D2E0547003BF0FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fenglin;
+				TargetAttributes = {
+					5187434A1D2E0548003BF0FD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 518743461D2E0547003BF0FD /* Build configuration list for PBXProject "FLDropDownMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518743421D2E0547003BF0FD;
+			productRefGroup = 5187434C1D2E0548003BF0FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5187434A1D2E0548003BF0FD /* FLDropDownMenuView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518743491D2E0548003BF0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5187436D1D2E2B65003BF0FD /* arrow_down_icon.bundle in Resources */,
+				5187435E1D2E0548003BF0FD /* LaunchScreen.storyboard in Resources */,
+				5187435B1D2E0548003BF0FD /* Assets.xcassets in Resources */,
+				518743591D2E0548003BF0FD /* Main.storyboard in Resources */,
+				5187436F1D2E348B003BF0FD /* arrow_down.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518743471D2E0548003BF0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518743561D2E0548003BF0FD /* ViewController.m in Sources */,
+				518743531D2E0548003BF0FD /* AppDelegate.m in Sources */,
+				518743671D2E0570003BF0FD /* FLDropDownMenuView.m in Sources */,
+				518743501D2E0548003BF0FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		518743571D2E0548003BF0FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518743581D2E0548003BF0FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5187435C1D2E0548003BF0FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5187435D1D2E0548003BF0FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		518743601D2E0548003BF0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		518743611D2E0548003BF0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518743631D2E0548003BF0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLDropDownMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheyaoshiapp.FLDropDownMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		518743641D2E0548003BF0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLDropDownMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheyaoshiapp.FLDropDownMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518743461D2E0547003BF0FD /* Build configuration list for PBXProject "FLDropDownMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518743601D2E0548003BF0FD /* Debug */,
+				518743611D2E0548003BF0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518743621D2E0548003BF0FD /* Build configuration list for PBXNativeTarget "FLDropDownMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518743631D2E0548003BF0FD /* Debug */,
+				518743641D2E0548003BF0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518743431D2E0547003BF0FD /* Project object */;
+}
