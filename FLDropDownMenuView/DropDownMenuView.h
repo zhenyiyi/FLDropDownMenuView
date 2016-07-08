@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FLDropDownMenuView : UIView
+@interface DropDownMenuView : UIView
 
 
 // width the table width, default 0.0, which indicates that the table width is equal to

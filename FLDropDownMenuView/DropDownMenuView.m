@@ -16,7 +16,7 @@ attributes:@{NSFontAttributeName:font} context:nil].size : CGSizeZero;
 #define kFLScreenHeight  [UIScreen mainScreen].bounds.size.height
 static const NSUInteger FLDropdownMenuViewHeaderHeight = 44;
 
-@interface FLDropDownMenuView()<UITableViewDataSource, UITableViewDelegate>
+@interface DropDownMenuView()<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, copy)   NSArray<NSString *> *items;
 @property (nonatomic, copy)   NSString *title;
@@ -31,7 +31,7 @@ static const NSUInteger FLDropdownMenuViewHeaderHeight = 44;
 @end
 
 
-@implementation FLDropDownMenuView
+@implementation DropDownMenuView
 
 #pragma mark -- life cycle --
 
